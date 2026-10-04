@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D3C9;
+font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.vsechno {
+    display: grid;
+    grid-template-columns: 1.5fr 1.05fr 0.9fr;
+    grid-template-areas:
+        "intro skills project"
+        "intro about contact";
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 14px;
+    padding: 28px;
+    border-radius: 24px;
+    min-height: 600px;
+
+}
+
+.karta-intro {
+    grid-area: intro;
+    background-color: #F5F2EA;
+    border-radius: 24px;
+}
+
+.karta-skills {
+    grid-area: skills;
+    background-color: #181818;
+    border-radius: 24px;
+     color: #F5F2EA;
+}
+
+.karta-project {
+    grid-area: project;
+    background-color: #D8FF45;
+    border-radius: 24px;
+   
+}
+
+.karta-about {
+    grid-area: about;
+    background-color: #F5F2EA;
+    border-radius: 24px;
+}
+
+.karta-contact {
+    grid-area: contact;
+    background-color: #6758F5;
+    border-radius: 24px;
+     color: #F5F2EA;
+}
+
+.karta-intro h1 {
+    font-size: 3rem; 
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+
+
+.karta-intro .maly-popisek {
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 12px;
+    padding: 28px;
+}
+
+
+.vsechno h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 28px;
+}
+
+
+.vsechno p {
+    font-size: 1rem;
+    line-height: 1.5;
+    opacity: 0.9;
+    padding: 28px;
+}
